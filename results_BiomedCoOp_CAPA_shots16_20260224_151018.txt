@@ -1,0 +1,224 @@
+==========================================
+Results Summary
+Trainer: BiomedCoOp
+Model: CAPA
+Shots: 16
+Date: Tue Feb 24 15:10:18 CST 2026
+==========================================
+
+
+==========================================
+Dataset: btmri - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 87.25%. 
+file: output/base2new-fina/train_base/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 80.12%. 
+file: output/base2new-fina/train_base/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 84.25%. 
+===
+Summary of directory: output/base2new-fina/train_base/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 83.87% +- 2.92%
+===
+
+==========================================
+Dataset: btmri - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 93.57%. 
+file: output/base2new-fina/test_new/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 96.84%. 
+file: output/base2new-fina/test_new/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 97.16%. 
+===
+Summary of directory: output/base2new-fina/test_new/btmri/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 95.86% +- 1.62%
+===
+
+==========================================
+Dataset: chmnist - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 89.10%. 
+file: output/base2new-fina/train_base/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 85.77%. 
+file: output/base2new-fina/train_base/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 88.43%. 
+===
+Summary of directory: output/base2new-fina/train_base/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 87.77% +- 1.44%
+===
+
+==========================================
+Dataset: chmnist - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 51.33%. 
+file: output/base2new-fina/test_new/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 45.74%. 
+file: output/base2new-fina/test_new/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 51.60%. 
+===
+Summary of directory: output/base2new-fina/test_new/chmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 49.56% +- 2.70%
+===
+
+==========================================
+Dataset: covid - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 75.42%. 
+file: output/base2new-fina/train_base/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 75.91%. 
+file: output/base2new-fina/train_base/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 82.31%. 
+===
+Summary of directory: output/base2new-fina/train_base/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 77.88% +- 3.14%
+===
+
+==========================================
+Dataset: covid - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 87.98%. 
+file: output/base2new-fina/test_new/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 91.51%. 
+file: output/base2new-fina/test_new/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 90.09%. 
+===
+Summary of directory: output/base2new-fina/test_new/covid/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 89.86% +- 1.45%
+===
+
+==========================================
+Dataset: ctkidney - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 83.84%. 
+file: output/base2new-fina/train_base/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 88.81%. 
+file: output/base2new-fina/train_base/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 79.78%. 
+===
+Summary of directory: output/base2new-fina/train_base/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 84.14% +- 3.69%
+===
+
+==========================================
+Dataset: ctkidney - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 76.24%. 
+file: output/base2new-fina/test_new/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 65.02%. 
+file: output/base2new-fina/test_new/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 75.97%. 
+===
+Summary of directory: output/base2new-fina/test_new/ctkidney/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 72.41% +- 5.23%
+===
+
+==========================================
+Dataset: kneexray - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 42.91%. 
+file: output/base2new-fina/train_base/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 46.53%. 
+file: output/base2new-fina/train_base/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 40.30%. 
+===
+Summary of directory: output/base2new-fina/train_base/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 43.25% +- 2.55%
+===
+
+==========================================
+Dataset: kneexray - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 82.48%. 
+file: output/base2new-fina/test_new/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 81.75%. 
+file: output/base2new-fina/test_new/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 81.39%. 
+===
+Summary of directory: output/base2new-fina/test_new/kneexray/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 81.87% +- 0.45%
+===
+
+==========================================
+Dataset: kvasir - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 87.67%. 
+file: output/base2new-fina/train_base/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 88.50%. 
+file: output/base2new-fina/train_base/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 89.00%. 
+===
+Summary of directory: output/base2new-fina/train_base/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 88.39% +- 0.55%
+===
+
+==========================================
+Dataset: kvasir - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 63.17%. 
+file: output/base2new-fina/test_new/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 61.17%. 
+file: output/base2new-fina/test_new/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 62.00%. 
+===
+Summary of directory: output/base2new-fina/test_new/kvasir/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 62.11% +- 0.82%
+===
+
+==========================================
+Dataset: lungcolon - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 94.22%. 
+file: output/base2new-fina/train_base/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 88.22%. 
+file: output/base2new-fina/train_base/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 96.47%. 
+===
+Summary of directory: output/base2new-fina/train_base/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 92.97% +- 3.48%
+===
+
+==========================================
+Dataset: lungcolon - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 95.87%. 
+file: output/base2new-fina/test_new/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 94.93%. 
+file: output/base2new-fina/test_new/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 97.50%. 
+===
+Summary of directory: output/base2new-fina/test_new/lungcolon/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 96.10% +- 1.06%
+===
+
+==========================================
+Dataset: octmnist - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 73.40%. 
+file: output/base2new-fina/train_base/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 84.00%. 
+file: output/base2new-fina/train_base/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 79.40%. 
+===
+Summary of directory: output/base2new-fina/train_base/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 78.93% +- 4.34%
+===
+
+==========================================
+Dataset: octmnist - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 69.00%. 
+file: output/base2new-fina/test_new/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 70.00%. 
+file: output/base2new-fina/test_new/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 56.80%. 
+===
+Summary of directory: output/base2new-fina/test_new/octmnist/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 65.27% +- 6.00%
+===
+
+==========================================
+Dataset: retina - BASE
+==========================================
+Parsing files in output/base2new-fina/train_base/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/train_base/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 87.36%. 
+file: output/base2new-fina/train_base/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 79.30%. 
+file: output/base2new-fina/train_base/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 86.73%. 
+===
+Summary of directory: output/base2new-fina/train_base/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 84.46% +- 3.66%
+===
+
+==========================================
+Dataset: retina - NOVEL
+==========================================
+Parsing files in output/base2new-fina/test_new/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+file: output/base2new-fina/test_new/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed1024/log.txt. accuracy: 82.36%. 
+file: output/base2new-fina/test_new/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed3407/log.txt. accuracy: 81.57%. 
+file: output/base2new-fina/test_new/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend/seed42/log.txt. accuracy: 73.54%. 
+===
+Summary of directory: output/base2new-fina/test_new/retina/shots_16/BiomedCoOp_CAPA/nctx4_cscFalse_ctpend
+* accuracy: 79.16% +- 3.98%
+===

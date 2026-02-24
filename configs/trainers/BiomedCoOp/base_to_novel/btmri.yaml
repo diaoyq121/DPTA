@@ -10,14 +10,14 @@ INPUT:
   INTERPOLATION: "bicubic"
   PIXEL_MEAN: [0.48145466, 0.4578275, 0.40821073]
   PIXEL_STD: [0.26862954, 0.26130258, 0.27577711]
-  TRANSFORMS: ["random_resized_crop", "normalize"]
   # TRANSFORMS: ["random_resized_crop", "horizontal_flip", "normalize"]
+  TRANSFORMS: ["random_resized_crop", "normalize"]
 
 
 OPTIM:
   NAME: "adamw"
   LR: 0.001
-  MAX_EPOCH: 100
+  MAX_EPOCH: 50
   LR_SCHEDULER: "cosine"
   WARMUP_EPOCH: 1
   WARMUP_TYPE: "constant"
@@ -29,17 +29,25 @@ TRAIN:
 MODEL:
   BACKBONE:
     NAME: "ViT-B/16"
-  # INIT_WEIGHTS: '/home/diaoyueqin/dyq/BiomedCoOp/output/busi/shots_128/BiomedCoOp_BiomedCLIP/nctx4_cscFalse_ctpend/seed1024/prompt_learner/model.pth.tar-100'
-
+  # INIT_WEIGHTS: "/home/diaoyueqin/dyq/BiomedCoOp/output/base2new-btmri/train_base/btmri/shots_16/BiomedCoOp_BiomedCLIP/nctx4_cscFalse_ctpend/seed1024/prompt_learner/model.pth.tar-50"
 
 TRAINER:
   BIOMEDCOOP:
-    CTX_INIT: "a ultrasound image of"
-    ATT_INIT: "morphology boundary posterior vascularity" #enhancement "position shape boundary signal"
-    SCCM_LAMBDA: 18.5
-    KDSP_LAMBDA: 10.0
-    TAU: 1.5
-    N_PROMPTS: 30
+    N_CTX: 5  # 上下文 token 数量
+    CTX_INIT: "a MR image of a"  # 上下文初始化文本
+    ATT_INIT: "Enhancement Position Shape Boundary Signal"  # 属性初始化文本 (MRI 特征)
+    CSC: False  # 是否使用类别特定上下文/属性
+    CLASS_TOKEN_POSITION: "end"
+    PREC: "fp32"
+    SCCM_LAMBDA: 10.0 #10.0
+    KDSP_LAMBDA: 1.0 #1.0
+    OT_WEIGHT: 1.0
+    TAU: 1.25
+    N_PROMPTS: 50
+    MEAN_POSITION: "end"
+
+
+
 # DATALOADER:
 #   TRAIN_X:
 #     BATCH_SIZE: 4
@@ -57,7 +65,7 @@ TRAINER:
 # OPTIM:
 #   NAME: "sgd"
 #   LR: 0.0025
-#   MAX_EPOCH: 100
+#   MAX_EPOCH: 50
 #   LR_SCHEDULER: "cosine"
 #   WARMUP_EPOCH: 1
 #   WARMUP_TYPE: "constant"
@@ -73,8 +81,8 @@ TRAINER:
 # TRAINER:
 #   BIOMEDCOOP:
 #     CTX_INIT: "a photo of a"
-#     SCCM_LAMBDA: 0.25
-#     KDSP_LAMBDA: 0.25
-#     TAU: 1.5
-#     N_PROMPTS: 40
+#     SCCM_LAMBDA: 0.5
+#     KDSP_LAMBDA: 0.5
+#     TAU: 1.25
+#     N_PROMPTS: 50
     

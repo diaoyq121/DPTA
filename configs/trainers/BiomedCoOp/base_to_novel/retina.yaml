@@ -31,8 +31,8 @@
 # TRAINER:
 #   BIOMEDCOOP:
 #     CTX_INIT: "a photo of a"
-#     SCCM_LAMBDA: 0.5
-#     KDSP_LAMBDA: 0.5
+#     SCCM_LAMBDA: 0.25
+#     KDSP_LAMBDA: 0.25
 #     TAU: 1.5
 #     N_PROMPTS: 50
   
@@ -55,7 +55,7 @@ INPUT:
 OPTIM:
   NAME: "adamw"
   LR: 0.001
-  MAX_EPOCH: 100
+  MAX_EPOCH: 50
   LR_SCHEDULER: "cosine"
   WARMUP_EPOCH: 1
   WARMUP_TYPE: "constant"
@@ -72,9 +72,12 @@ MODEL:
 
 TRAINER:
   BIOMEDCOOP:
-    CTX_INIT: "a histopathology image of"
-    ATT_INIT: "Nuclear Stroma Inflammation Necrosis" #enhancement "position shape boundary signal"
-    SCCM_LAMBDA: 5.0
-    KDSP_LAMBDA: 10.0
+    N_CTX: 5  # 上下文 token 数量
+
+    CTX_INIT: "a fundus image of a"
+    ATT_INIT: "Color Morphological Structural Texture" #enhancement "position shape boundary signal"
+    SCCM_LAMBDA: 0.5
+    KDSP_LAMBDA: 0.5
+    OT_WEIGHT: 1.0
     TAU: 1.5
-    N_PROMPTS: 30
+    N_PROMPTS: 50
